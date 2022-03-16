@@ -7,8 +7,10 @@ public class TiposEnumerados {
     Dias diaactual = Dias.Martes;
     Dias diasiguiente = Dias.Miercoles;
     Dias diadedespues = Dias.Jueves;
+    Dias diaanterior = Dias.Lunes;
     System.out.println("Hoy es " + diaactual);
     System.out.println("Mañana es "+diasiguiente);
     System.out.println("Pasado mañana será " +diadedespues);
+    System.out.println("Pasado mañana será " + diaanterior);
 	}
 }
